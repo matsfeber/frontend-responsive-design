@@ -81,8 +81,8 @@ article {
   background-color: white;
   padding: 2px;
   margin-bottom: 10px;
-  border-bottom: 1px solid black
-}
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  }
 
 article ul {
   padding-left: 5%;
