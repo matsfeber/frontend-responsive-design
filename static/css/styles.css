@@ -1,6 +1,7 @@
 body {
   font-family: helvetica;
 }
+
 header {
   background-color: red;
   width: 100%;
@@ -8,20 +9,54 @@ header {
   top: 0;
   left: 0;
   position: fixed;
+  box-shadow: 0 4px 10px -2px #000000;
+}
+
+header img {
+  width: 70px;
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 2.5em;
+}
+
+header nav {
+  float: right;
+  margin: 5%;
+  width: 50%;
+}
+
+header nav a {
+  margin: 5%;
+  float: right;
+}
+
+form {
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+  height: auto;
 }
 
 button {
   background-color: blue;
   color: white;
   border: none;
+  width: 25%;
+  height: 20px;
+  float: right;
+}
+
+select {
+  width: 100%;
+  background-color: yellow;
+}
+
+article {
+  background-color: lightblue;
 }
 
 .content {
   padding-top: 70px;
-}
-
-.searchbar {
- background-color: yellow;
 }
 
 .searchbar input {
@@ -32,9 +67,3 @@ button {
   background-color: red;
   height: 20px
 }
-
-.searchbar button {
-  width: 25%;
-  float: right;
-  height: 20px;
-  }

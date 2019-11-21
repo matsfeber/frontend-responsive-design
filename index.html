@@ -1,27 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="static/css/styles.css">
-  <title>Titel van het document</title>
+  <script type="text/javascript" src="js.script.js">
+
+  </script>
+  <title>NS Reisverhalen</title>
 </head>
+
 <body>
   <header>
-
+      <a href="index.html"><img src="images/ns_icon.svg" alt=""></a>
+    <nav>
+      <a href="user.html">User</a>
+      <a href="saved.html">Saved</a>
+    </nav>
   </header>
 
-<div class="content">
+  <div class="content">
 
-<form class="searchbar" action="index.html" method="post">
-  <input type="text" name="" value="">
-  <button type="button" name="button">search</button>
-</form>
+    <form class="searchbar" action="index.html" method="post">
+      <input type="text" name="" value="">
+      <button type="button" name="button">search</button>
+    </form>
 
+    <form class="filter" action="index.html" method="post">
+      <button type="button" name="button">Filter</button>
+      <label for="genre">Genre</label>
+      <select name="genre">
+        <option value="volvo">Romantisch</option>
+        <option value="saab">Avontuur</option>
+        <option value="fiat" selected>Horror</option>
+      </select>
 
+      <label for="sorteer">Soorteer op</label>
+      <select name="sorteer">
+        <option value="volvo">Beoordeling</option>
+        <option value="fiat" selected>Alfabetisch</option>
+      </select>
 
+      <label for="leesduur">Leesduur</label>
+      <input type="range" min="1" max="100" value="50">
+    </form>
 
-</div>
+    <main>
+      <h1>Verhalen</h1>
+      <section>
+        <article>
+          <h2>Titel</h2>
+          <p>Kort stukje tekst</p>
+          <a href="#">Lees meer</a>
+        </article>
+
+        <article>
+          <h2>Titel</h2>
+          <p>Kort stukje tekst</p>
+          <a href="#">Lees meer</a>
+        </article>
+
+        <article>
+          <h2>Titel</h2>
+          <p>Kort stukje tekst</p>
+          <a href="#">Lees meer</a>
+        </article>
+
+        <article>
+          <h2>Titel</h2>
+          <p>Kort stukje tekst</p>
+          <a href="#">Lees meer</a>
+        </article>
+      </section>
+    </main>
+
+  </div>
 </body>
+
 </html>
