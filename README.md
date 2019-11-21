@@ -1,7 +1,7 @@
 # frontend-responsive-design
 Opdracht voor het vak Frontend @CMD Amsterdam
 
-[Beschrijf hier wat jij gaat doen]
+Ik ga een website bouwen waar rijsverhalen op zijn te vinden, je kunt verhalen zoeken,filteren en sorteren en opslaan.
 
 ## Criteria
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt
