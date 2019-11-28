@@ -6,7 +6,6 @@ body {
   font-family: raleway;
   background-color: #E6E6E9
 }
-
 h1 {
   font-family: helvetica;
   color: #000000;
@@ -68,6 +67,7 @@ form {
   height: auto;
 }
 
+
 button {
   background-color: #70B62A;
   color: white;
@@ -75,6 +75,7 @@ button {
   width: 25%;
   height: 30px;
   float: right;
+
 }
 
 article {
@@ -83,19 +84,19 @@ article {
 }
 
 article h1 {
-  position: absolute;
-  margin-top: 5px;
-  top: 0;
-  left: 16px;
-  font-size: 4em;
-  color: #70B62A;
+position: absolute;
+margin-top: 5px;
+top: 0;
+left: 16px;
+font-size: 4em;
+color: #70B62A;
 }
 
 article h2 {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-  color: white;
+position: absolute;
+bottom: 0;
+left: 16px;
+color: white;
 }
 
 article img {
@@ -113,6 +114,7 @@ article img:hover {
 article h1:hover {
   display: none;
   transition-duration: 1s;
+
 }
 
 article h2:hover {
@@ -120,8 +122,23 @@ article h2:hover {
   transition-duration: 1s;
 }
 
+
+
 .content {
   padding-top: 70px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.searchbar input {
+  width: 75%;
+  float: left;
+  border: 0;
+  padding: 0;
+  background-color: white;
+  height: 30px
+}
+
+.searchbar {
+  height: 30px;
 }
