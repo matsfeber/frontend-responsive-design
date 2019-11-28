@@ -9,81 +9,47 @@
   <script type="text/javascript" src="js.script.js">
 
   </script>
-  <title>NS Reisverhalen</title>
+  <title>Budget-Reisen</title>
 </head>
 
 <body>
   <header>
-    <a href="index.html"><img src="images/ns_icon.svg" alt=""></a>
+    <a href="index.html"><img src="images/icon.png" alt=""></a>
     <nav>
       <a href="user.html">Profiel</a>
-      <a href="saved.html">Opgeslagen</a>
     </nav>
   </header>
-
   <div class="content">
-
+    <h1>Zoek een reis binnen je budget</h1>
     <form class="searchbar" action="index.html" method="post">
-      <input type="text" name="" value="">
+      <input type="number" name="search" value="...">
       <button type="button" name="button">search</button>
     </form>
-    <form class="filter" action="index.html" method="post">
-      <button type="button" name="button">Filter</button>
-      <label for="genre">Genre</label>
-      <select name="genre">
-        <option value="volvo">Romantisch</option>
-        <option value="saab">Avontuur</option>
-        <option value="fiat" selected>Horror</option>
-      </select>
 
-      <label for="sorteer">Sorteer op</label>
-      <select name="sorteer">
-        <option value="volvo">Beoordeling</option>
-        <option value="fiat" selected>Alfabetisch</option>
-      </select>
 
-      <label for="leesduur">Leesduur</label>
-      <input type="range" min="1" max="100" value="50">
-    </form>
+    <h1>Uitgelicht</h1>
+<a href="info.html">
+    <article class="">
+      <img src="images/amsterdam.jpg" alt="Amsterdam">
+      <h1>€157</h1>
+      <h2>Amsterdam</h2>
+    </article>
+</a>
+    <article class="">
+      <img src="images/london.jpg" alt="London">
+      <h1>€82</h1>
+      <h2>London</h2>
+    </article>
 
-    <main>
-      <h1>Verhalen</h1>
-      <section>
-        <article>
-          <h2>Titel</h2>
-          <ul>
-            <li>Aantal sterren : 5</li>
-            <li> Leesduur : 10 min</li>
-            <li>Genre : horror</li>
-          </ul>
-
-          <a href="#">Lees meer</a>
-        </article>
-
-        <article>
-          <h2>Titel</h2>
-          <ul>
-            <li>Aantal sterren : 5</li>
-            <li> Leesduur : 10 min</li>
-            <li>Genre : horror</li>
-          </ul>
-
-          <a href="#">Lees meer</a>
-        </article>
-        <article>
-          <h2>Titel</h2>
-          <ul>
-            <li>Aantal sterren : 5</li>
-            <li> Leesduur : 10 min</li>
-            <li>Genre : horror</li>
-          </ul>
-
-          <a href="#">Lees meer</a>
-        </article>
-      </section>
-    </main>
+    <article class="">
+      <img src="images/madrid.jpg" alt="Madrid">
+      <h1>€96</h1>
+      <h2>Madrid</h2>
+    </article>
 
   </div>
+
+
 </body>
 
 </html>
