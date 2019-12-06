@@ -16,38 +16,78 @@
   <header>
     <a href="index.html"><img src="images/icon.png" alt=""></a>
     <nav>
-      <a href="user.html">Profiel</a>
+      <a href="user.html"><img src="images/profile.png" alt="Profile"></a>
+      <a href="user.html"><img src="images/saved.png" alt="Saved"></a>
     </nav>
   </header>
+
   <div class="content">
-    <h1>Zoek een reis binnen je budget</h1>
+<div class="grid">
+
+
+
+<main>
+  <h1>Zoek een reis binnen je budget</h1>
+    <form class="filter" action="index.html" method="post">
+      <select name="sort">
+        <option value="">Sorteer op</option>
+        <option value="">Prijs</option>
+        <option value="">Reisdeur</option>
+        </select>
+    </form>
+
     <form class="searchbar" action="index.html" method="post">
-      <input type="number" name="search" value="...">
+      <input type="number" name="search" value="budget" placeholder="Voer je budget in">
       <button type="button" name="button">search</button>
     </form>
 
+    <h1>Resultaat</h1>
 
-    <h1>Uitgelicht</h1>
-    <a href="info.html">
-      <article class="">
+    <ul class="flex-container">
+
+      <article class="flex-item">
+        <img src="images/amsterdam.jpg" alt="Amsterdam">
+        <h1>€157</h1>
+        <h3>3 dagen</h3>
+        <h2>Amsterdam</h2>
+      </article>
+
+      <article class="flex-item">
         <img src="images/amsterdam.jpg" alt="Amsterdam">
         <h1>€157</h1>
         <h2>Amsterdam</h2>
       </article>
-    </a>
-    <article class="">
-      <img src="images/london.jpg" alt="London">
-      <h1>€82</h1>
-      <h2>London</h2>
-    </article>
 
-    <article class="">
-      <img src="images/madrid.jpg" alt="Madrid">
-      <h1>€96</h1>
-      <h2>Madrid</h2>
-    </article>
+      <article class="flex-item">
+        <img src="images/amsterdam.jpg" alt="Amsterdam">
+        <h1>€157</h1>
+        <h2>Amsterdam</h2>
+      </article>
 
-  </div>
+      <article class="flex-item">
+        <img src="images/amsterdam.jpg" alt="Amsterdam">
+        <h1>€157</h1>
+        <h2>Amsterdam</h2>
+      </article>
+
+</ul>
+
+</main>
+
+<aside class="">
+  <h1>Top 5 goedkoopste steden steden</h1>
+  <ul>
+    <li>Amsterdam</li>
+    <li>Amsterdam</li>
+    <li>Amsterdam</li>
+    <li>Amsterdam</li>
+    <li>Amsterdam</li>
+
+  </ul>
+</aside>
+</div>
+</div>
+
 
 
 </body>

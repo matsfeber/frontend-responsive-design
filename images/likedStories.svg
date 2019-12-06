@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="61px" viewBox="0 0 59 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>liked stories</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Stylesheet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overzichtspagina-desktop" transform="translate(-1004.000000, -34.000000)">
+            <g id="liked-stories" transform="translate(1004.000000, 34.000000)">
+                <g id="Group">
+                    <rect id="Rectangle" stroke="#979797" stroke-width="3" x="1.5" y="1.5" width="46.038961" height="51.1842105" rx="3"></rect>
+                    <line x1="5.74675325" y1="8.01315789" x2="42.525974" y2="8.01315789" id="Line-2" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square"></line>
+                    <line x1="5.74675325" y1="14.8815789" x2="42.525974" y2="14.8815789" id="Line-2" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square"></line>
+                    <line x1="5.74675325" y1="28.6184211" x2="37.9285714" y2="28.6184211" id="Line-2" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square"></line>
+                    <line x1="5.74675325" y1="35.4868421" x2="42.525974" y2="35.4868421" id="Line-2" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square"></line>
+                    <line x1="5.74675325" y1="21.75" x2="31.0324675" y2="21.75" id="Line-2" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square"></line>
+                </g>
+                <g id="Like" transform="translate(26.818182, 29.000000)" fill="#F6861E">
+                    <g id="hart">
+                        <path d="M32.1818182,9.7542084 C32.1818182,4.36701986 28.2908226,0 23.4911029,0 C20.3569746,0 17.6198947,1.86820772 16.0908111,4.66018273 C14.5619235,1.86820772 11.8236679,0 8.68960494,0 C3.88988524,0 0,4.36701986 0,9.7542084 C0,12.68723 1.1579652,15.311254 2.98298994,17.098162 L15.2977594,30.9208025 C15.5080729,31.1568576 15.7933024,31.2894737 16.0908111,31.2894737 C16.3883198,31.2894737 16.6735493,31.1568576 16.8838628,30.9208025 L29.1986323,17.098162 C31.0237224,15.311254 32.1818182,12.68723 32.1818182,9.7542084 Z" id="Path" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
