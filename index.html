@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="static/css/styles.css">
-  <script type="text/javascript" src="js.script.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </script>
   <title>Budget-Reisen</title>
@@ -16,80 +16,100 @@
   <header>
     <a href="index.html"><img src="images/icon.png" alt=""></a>
     <nav>
-      <a href="user.html"><img src="images/profile.png" alt="Profile"></a>
-      <a href="user.html"><img src="images/saved.png" alt="Saved"></a>
+      <ul>
+        <li class="fa fa-user"></li>
+        <li class="fa fa-heart"></li>
+        </li>
+      </ul>
+
     </nav>
   </header>
 
   <div class="content">
-<div class="grid">
+    <div class="grid">
 
 
+      <div class="grid-item-1">
 
-<main>
-  <h1>Zoek een reis binnen je budget</h1>
-    <form class="filter" action="index.html" method="post">
-      <select name="sort">
-        <option value="">Sorteer op</option>
-        <option value="">Prijs</option>
-        <option value="">Reisdeur</option>
-        </select>
-    </form>
+        <h1>Zoek een reis binnen je budget</h1>
 
-    <form class="searchbar" action="index.html" method="post">
-      <input type="number" name="search" value="budget" placeholder="Voer je budget in">
-      <button type="button" name="button">search</button>
-    </form>
-
-    <h1>Resultaat</h1>
-
-    <ul class="flex-container">
-
-      <article class="flex-item">
-        <img src="images/amsterdam.jpg" alt="Amsterdam">
-        <h1>€157</h1>
-        <h3>3 dagen</h3>
-        <h2>Amsterdam</h2>
-      </article>
-
-      <article class="flex-item">
-        <img src="images/amsterdam.jpg" alt="Amsterdam">
-        <h1>€157</h1>
-        <h2>Amsterdam</h2>
-      </article>
-
-      <article class="flex-item">
-        <img src="images/amsterdam.jpg" alt="Amsterdam">
-        <h1>€157</h1>
-        <h2>Amsterdam</h2>
-      </article>
-
-      <article class="flex-item">
-        <img src="images/amsterdam.jpg" alt="Amsterdam">
-        <h1>€157</h1>
-        <h2>Amsterdam</h2>
-      </article>
-
-</ul>
-
-</main>
-
-<aside class="">
-  <h1>Top 5 goedkoopste steden steden</h1>
-  <ul>
-    <li>Amsterdam</li>
-    <li>Amsterdam</li>
-    <li>Amsterdam</li>
-    <li>Amsterdam</li>
-    <li>Amsterdam</li>
-
-  </ul>
-</aside>
-</div>
-</div>
+        <form class="filter" action="index.html" method="post">
+          <h2>Hoelang wil je weg?</h2>
+          <input type="date" name="departureDate" value="">
 
 
+          <h2>Hoelang wil je weg?</h2>
+          <select name="sort">
+            <option value="">1-3 Dagen</option>
+            <option value="">4-6 Dagen</option>
+            <option value="">7-9 Dagen</option>
+          </select>
 
+          <h2>Met hoeveel personen</h2>
+          <input type="numer" name="departureDate" value="1">
+
+          <h2>Geef je budget per persoon aan</h2>
+          <select name="sort">
+            <option value="">tot €200</option>
+            <option value="">tot €400</option>
+            <option value="">tot €600</option>
+          </select>
+
+          <input id="button" type="submit" value="Submit">
+        </form>
+      </div>
+
+      <main class="grid-item-2">
+        <h1>Resultaat</h1>
+        <form class="filter" action="index.html" method="post">
+          <select name="sort">
+            <option value="">Sorteer op</option>
+            <option value="">Prijs</option>
+            <option value="">Reisdeur</option>
+          </select>
+        </form>
+
+        <ul class="flex-container">
+
+          <article class="flex-item">
+            <a href="info.html">
+              <img src="images/amsterdam.jpg" alt="Amsterdam">
+              <h1>€157</h1>
+              <h3>3 dagen</h3>
+              <h2>Amsterdam</h2>
+            </a>
+          </article>
+
+          <article class="flex-item">
+            <a href="info.html">
+              <img src="images/amsterdam.jpg" alt="Amsterdam">
+              <h1>€157</h1>
+              <h3>3 dagen</h3>
+              <h2>Amsterdam</h2>
+            </a>
+          </article>
+
+          <article class="flex-item">
+            <a href="info.html">
+              <img src="images/amsterdam.jpg" alt="Amsterdam">
+              <h1>€157</h1>
+              <h3>3 dagen</h3>
+              <h2>Amsterdam</h2>
+            </a>
+          </article>
+
+          <article class="flex-item">
+            <a href="info.html">
+              <img src="images/amsterdam.jpg" alt="Amsterdam">
+              <h1>€157</h1>
+              <h3>3 dagen</h3>
+              <h2>Amsterdam</h2>
+            </a>
+          </article>
+        </ul>
+      </main>
+    </div>
+  </div>
 </body>
 
 </html>
