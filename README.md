@@ -4,6 +4,8 @@ Opdracht voor het vak Frontend @CMD Amsterdam
 Ik ga een reisplanner bouwen waar je reizen kunt zoeken,filteren en sorteren en opslaan.
 Ik ga de zoekpagina en detail pagina uitwerken.
 
+https://matsfeber.github.io/frontend-responsive-design/
+
 ## Criteria
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt
       - Single column layout (mobile first)
