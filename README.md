@@ -1,7 +1,8 @@
 # frontend-responsive-design
 Opdracht voor het vak Frontend @CMD Amsterdam
 
-Ik ga een website bouwen waar reisverhalen op zijn te vinden, je kunt verhalen zoeken,filteren en sorteren en opslaan.
+Ik ga een reisplanner bouwen waar je reizen kunt zoeken,filteren en sorteren en opslaan.
+Ik ga de zoekpagina en detail pagina uitwerken.
 
 ## Criteria
 ### 1.) De HTML is gestructureerd en semantisch opgemaakt
